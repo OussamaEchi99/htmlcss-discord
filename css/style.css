@@ -11,8 +11,12 @@ body{
 }
 
 a{
-    list-style-type: none;
     text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
 }
 
 .light{
@@ -25,6 +29,10 @@ a{
     background-color: #23272a;
 }
 
+.light-blue{
+    color: white;
+    background-color: #8ea1e1;
+}
 
 /* HEADER */
 header{
@@ -78,7 +86,6 @@ header{
 }
 
 .menu-navigation ul li a{
-    color: white;
     display: inline-block;
     border-radius: 16px;
 }
@@ -86,6 +93,7 @@ header{
 .login a{
     padding: 8px 15px;
 }
+
 /* MAIN */
 .banner{
     background-image: url(../img/jumbo.png);
@@ -125,4 +133,108 @@ h2{
 span{
     font-weight: 700;
     font-size: 18px;
+}
+
+/* SECTION */
+section{
+    width: 100%;
+    margin: 130px 0;
+    padding: 60px 0;
+}
+main section:nth-child(3),
+main section:nth-child(5){
+    background-color: lightgrey;
+}
+.sect-1,
+.sect-2,
+.sect-3{
+    text-align: left;
+}
+
+.image{
+    width: 45%;
+    margin: 0 90px;
+}
+
+.text-image{
+    width: 25%;
+}
+
+.sect-2{
+    position: relative;
+    left: 10%;
+}
+
+.image-text-center{
+    width: 58%;
+    margin: auto;
+}
+
+.download-mac a{
+    margin: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 26px;
+}
+
+.download-mac h3{
+    font-size: 40px;
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    padding: 20px 0;
+    background-repeat: no-repeat;
+}
+
+/* FOOTER */
+footer{
+    background-color: #23272a;
+}
+
+.footer{
+    text-align: left;
+    padding: 80px 0 15px 0;
+    border-bottom: 1px solid #7289da;
+}
+
+.first{
+    width: 24%;
+}
+
+.first h3{
+    font-size: 40px;
+}
+
+.second, .third, .fourth, .fifth{
+    width: 14%;
+}
+
+.title{
+    color: #7289da;
+}
+
+ .list li{
+    margin: 10px 0;
+}
+
+.logo-btn{
+    line-height: 100px;
+}
+
+.footer-logo{
+    width: 50%;
+    text-align: left;
+}
+
+.footer-logo img{
+    vertical-align: middle;
+}
+
+.footer-btn{
+    width: 50%;
+    text-align: right;
+}
+
+.footer-btn a{
+    padding: 8px 15px;
+    border-radius: 20px;
 }
