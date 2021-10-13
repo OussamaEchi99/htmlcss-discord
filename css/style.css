@@ -10,6 +10,12 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -40,13 +46,6 @@ header{
     width: 100%;
     height: 100px;
     line-height: 100px;
-}
-
-.container{
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    text-align: center;
 }
 
 .col{
@@ -87,11 +86,12 @@ header{
 
 .menu-navigation ul li a{
     display: inline-block;
-    border-radius: 16px;
+    border-radius: 26px;
 }
 
 .login a{
     padding: 8px 15px;
+    border-radius: 16px;
 }
 
 /* MAIN */
@@ -141,9 +141,14 @@ section{
     margin: 130px 0;
     padding: 60px 0;
 }
+
 main section:nth-child(3),
 main section:nth-child(5){
     background-color: lightgrey;
+}
+
+main section:last-child{
+    margin-bottom: 0;
 }
 .sect-1,
 .sect-2,
@@ -200,6 +205,10 @@ footer{
     width: 24%;
 }
 
+.first img{
+    width: 25px;
+}
+
 .first h3{
     font-size: 40px;
 }
@@ -237,4 +246,24 @@ footer{
 .footer-btn a{
     padding: 8px 15px;
     border-radius: 20px;
+}
+
+#choice{
+    color: white;
+}
+
+#choice-entity{
+    font-size: 10px;
+    vertical-align: 4px;
+}
+.language{
+    margin: 20px 0;
+}
+.language img{
+    vertical-align: middle;
+}
+
+.social-icon a{
+    font-size: 20px;
+    margin-right: 25px;
 }
